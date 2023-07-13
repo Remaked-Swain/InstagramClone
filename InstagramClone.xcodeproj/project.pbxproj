@@ -19,6 +19,7 @@
 		04CCBF622A5FA99E004BD9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04CCBF642A5FA99E004BD9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CCBF672A5FA99E004BD9F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04CCBF6E2A5FAA3B004BD9F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		04CCBF5F2A5FA99E004BD9F8 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				04CCBF6E2A5FAA3B004BD9F8 /* README.md */,
 				04CCBF602A5FA99E004BD9F8 /* InstagramCloneApp.swift */,
 				04CCBF622A5FA99E004BD9F8 /* ContentView.swift */,
 				04CCBF642A5FA99E004BD9F8 /* Assets.xcassets */,
