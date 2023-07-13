@@ -6,7 +6,7 @@
 ---------------------------------------------
 
 ### Profile Tab
-    ![ProfileView](https://github.com/Remaked-Swain/ScreenShotRepository/blob/main/InstagramClone_ProfileView.png?raw=true)
+![ProfileView](https://github.com/Remaked-Swain/ScreenShotRepository/blob/main/InstagramClone_ProfileView.png?raw=true)
 SF심볼에서 인스타그램에서 사용되는 아이콘과 최대한 비슷한 것으로 골라서 인스타그램 탭 중 하나인 ProfileView 를 클론해보았다.
 특히 실제 앱과 최대한 비슷하게 레이아웃을 그리도록 신경쓰면서 진행하였다.
 
