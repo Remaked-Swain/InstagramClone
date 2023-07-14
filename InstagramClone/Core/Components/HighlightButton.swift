@@ -19,21 +19,22 @@ struct HighlightButton: View {
     var body: some View {
         VStack {
             Circle()
-                .frame(width: 90, height: 90)
+                .frame(width: 80, height: 80)
                 .foregroundColor(.gray.opacity(0.3))
                 .overlay(
                     Circle()
-                        .frame(width: 86, height: 86)
+                        .frame(width: 76, height: 76)
                         .foregroundColor(.white)
                         .overlay(
                             Image(systemName: image)
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 28, height: 28)
+                                .frame(width: 18, height: 18)
                         )
                 )
             
             Text(title)
+                .font(.callout)
         }
     }
 }

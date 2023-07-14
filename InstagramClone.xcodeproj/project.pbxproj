@@ -14,6 +14,9 @@
 		04CCBF7F2A5FB542004BD9F8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF7E2A5FB542004BD9F8 /* ProfileView.swift */; };
 		04CCBF822A5FBBD0004BD9F8 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF812A5FBBD0004BD9F8 /* UserStatView.swift */; };
 		04CCBF842A5FDDB8004BD9F8 /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF832A5FDDB8004BD9F8 /* HighlightButton.swift */; };
+		04CCBF862A6119F7004BD9F8 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF852A6119F7004BD9F8 /* FeedView.swift */; };
+		04CCBF882A6119FE004BD9F8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF872A6119FE004BD9F8 /* FeedCell.swift */; };
+		04CCBF8A2A611E82004BD9F8 /* StoryCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF892A611E82004BD9F8 /* StoryCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		04CCBF7E2A5FB542004BD9F8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		04CCBF812A5FBBD0004BD9F8 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		04CCBF832A5FDDB8004BD9F8 /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
+		04CCBF852A6119F7004BD9F8 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		04CCBF872A6119FE004BD9F8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		04CCBF892A611E82004BD9F8 /* StoryCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,8 @@
 		04CCBF752A5FB31C004BD9F8 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				04CCBF852A6119F7004BD9F8 /* FeedView.swift */,
+				04CCBF872A6119FE004BD9F8 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -178,6 +186,7 @@
 			children = (
 				04CCBF812A5FBBD0004BD9F8 /* UserStatView.swift */,
 				04CCBF832A5FDDB8004BD9F8 /* HighlightButton.swift */,
+				04CCBF892A611E82004BD9F8 /* StoryCircleView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -252,10 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CCBF882A6119FE004BD9F8 /* FeedCell.swift in Sources */,
 				04CCBF842A5FDDB8004BD9F8 /* HighlightButton.swift in Sources */,
 				04CCBF7F2A5FB542004BD9F8 /* ProfileView.swift in Sources */,
 				04CCBF612A5FA99E004BD9F8 /* InstagramCloneApp.swift in Sources */,
 				04CCBF822A5FBBD0004BD9F8 /* UserStatView.swift in Sources */,
+				04CCBF8A2A611E82004BD9F8 /* StoryCircleView.swift in Sources */,
+				04CCBF862A6119F7004BD9F8 /* FeedView.swift in Sources */,
 				04CCBF7C2A5FB3B1004BD9F8 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

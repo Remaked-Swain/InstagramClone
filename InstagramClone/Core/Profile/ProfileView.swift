@@ -15,34 +15,36 @@ struct ProfileView: View {
     private let gridContentTypes: [String] = ["squareshape.split.3x3", "video", "person.crop.square"]
     
     var body: some View {
-        VStack {
-            header
-            
-            ScrollView {
-                VStack(spacing: 15) {
-                    userStatSummarySection
-                    
-                    userIntroSection
-                    
-                    HStack {
-                        Image(systemName: "link")
+        NavigationStack {
+            VStack {
+                header
+                
+                ScrollView {
+                    VStack(spacing: 15) {
+                        userStatSummarySection
                         
-                        Text("github.com/Remaked-Swain")
+                        userIntroSection
                         
-                        Spacer()
+                        HStack {
+                            Image(systemName: "link")
+                            
+                            Text("github.com/Remaked-Swain")
+                            
+                            Spacer()
+                        }
+                        .padding(.horizontal)
+                        .foregroundColor(.accentColor)
+                        
+                        profileControls
+                        
+                        highlights
                     }
-                    .padding(.horizontal)
-                    .foregroundColor(.accentColor)
                     
-                    profileControls
-                    
-                    highlights
+                    lazyPhotoGrid
                 }
                 
-                lazyPhotoGrid
+                Spacer()
             }
-            
-            Spacer()
         }
     }
 }
@@ -63,13 +65,24 @@ extension ProfileView {
             }
             Spacer()
             HStack(spacing: 30) {
-                Image(systemName: "plus.square")
-                    .resizable()
-                    .scaledToFit()
-                Image(systemName: "line.3.horizontal")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 30)
+                Button {
+                    // add menu
+                } label: {
+                    Image(systemName: "plus.square")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundColor(.black)
+                }
+                
+                Button {
+                    // setting menu
+                } label: {
+                    Image(systemName: "line.3.horizontal")
+                        .resizable()
+                        .scaledToFit()
+                        .foregroundColor(.black)
+                        .frame(width: 30)
+                }
             }
             .frame(height: 25)
         }
@@ -164,7 +177,7 @@ extension ProfileView {
                 ForEach(0..<10) { index in
                     Image("profilePhoto")
                         .resizable()
-                        .scaledToFit()
+                        .scaledToFill()
                 }
             } header: {
                 // pinned header
