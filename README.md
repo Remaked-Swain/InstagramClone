@@ -6,7 +6,7 @@
 ---------------------------------------------
 
 ### Profile Tab
-<img src="https://github.com/Remaked-Swain/ScreenShotRepository/blob/main/InstagramClone_ProfileView.png?raw=true" alt="ProfileView" width="200" height="400">
+<img src="https://github.com/Remaked-Swain/ScreenShotRepository/blob/main/InstagramClone/InstagramClone_ProfileView.png?raw=true" alt="ProfileView" width="200" height="400">
 SF심볼에서 인스타그램에서 사용되는 아이콘과 최대한 비슷한 것으로 골라서 인스타그램 탭 중 하나인 ProfileView 를 클론해보았다.
 특히 실제 앱과 최대한 비슷하게 레이아웃을 그리도록 신경쓰면서 진행하였다.
 
@@ -35,7 +35,7 @@ SF심볼에서 인스타그램에서 사용되는 아이콘과 최대한 비슷�
 -----------------------------------------------
 
 ### Feed Tab
-<img src="https://github.com/Remaked-Swain/ScreenShotRepository/blob/main/InstagramClone_FeedView.png?raw=true" alt="FeedView" width="200" height="400">
+<img src="https://github.com/Remaked-Swain/ScreenShotRepository/blob/main/InstagramClone/InstagramClone_FeedView.png?raw=true" alt="FeedView" width="200" height="400">
 
 * Instagram Highlight
     * 스토리가 업데이트 되었을 때 사진 둘레로 나타나는 인스타그램 특유의 그라데이션 색상을 직접 만들어보니 영롱한 느낌이 들며 뿌듯했다.
